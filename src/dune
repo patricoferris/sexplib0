@@ -1,2 +1,3 @@
 (library (name sexplib0) (public_name sexplib0)
+ (libraries camlp-streams)
  (preprocess no_preprocessing))
