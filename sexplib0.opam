@@ -12,6 +12,7 @@ build: [
 depends: [
   "ocaml" {>= "4.04.2"}
   "dune" {>= "2.0.0"}
+  "camlp-streams" # For OCaml >= 5... probably needs a shim
 ]
 synopsis: "Library containing the definition of S-expressions and some base converters"
 description: "
